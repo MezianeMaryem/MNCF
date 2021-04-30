@@ -116,7 +116,7 @@ public class Registration extends AppCompatActivity {
                                     Log.d("error", "onFailure: " + e.toString());
                                 }
                             });
-                            startActivity(new Intent(getApplicationContext(),MainActivity4.class));
+                            startActivity(new Intent(getApplicationContext(),pageprincipale.class));
 
                         }else {
                             Toast.makeText(Registration.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
