@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631229147792",
+    "project_id": "mncf-76156",
+    "storage_bucket": "mncf-76156.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631229147792:android:8a09f3186e2185bc028615",
+        "android_client_info": {
+          "package_name": "com.example.mncf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631229147792-o8dkf9ugqdv0m5si5is1ijd2n3hpdc5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjfH54ekN4ASM6TF_Vz2c7Jz8F6BEDzRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631229147792-o8dkf9ugqdv0m5si5is1ijd2n3hpdc5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
