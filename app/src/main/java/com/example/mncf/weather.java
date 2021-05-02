@@ -1,4 +1,5 @@
 package com.example.mncf;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -29,7 +30,7 @@ public class weather extends AppCompatActivity {
 
 
     final String APP_ID = "897f1332d5b4d534a9453d77c04e96f0";
-    final String WEATHER_URL = "https://home.openweathermap.org/data/2.5/weather";
+    final String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather";
 
     final long MIN_TIME = 5000;
     final float MIN_DISTANCE = 1000;
@@ -169,7 +170,7 @@ public class weather extends AppCompatActivity {
         {
             if(grantResults.length>0 && grantResults[0]==PackageManager.PERMISSION_GRANTED)
             {
-                Toast.makeText(weather.this,"Locationget Succesffully",Toast.LENGTH_SHORT).show();
+                Toast.makeText(weather.this,"location trouvé",Toast.LENGTH_SHORT).show();
                 getWeatherForCurrentLocation();
             }
             else
@@ -191,7 +192,7 @@ public class weather extends AppCompatActivity {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 
-                Toast.makeText(weather.this,"Data Get Success",Toast.LENGTH_SHORT).show();
+                Toast.makeText(weather.this,"Données récupérées",Toast.LENGTH_SHORT).show();
 
                 weatherData weatherD=weatherData.fromJson(response);
                 updateUI(weatherD);

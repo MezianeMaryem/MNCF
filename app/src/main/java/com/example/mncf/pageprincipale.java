@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class pageprincipale extends AppCompatActivity {
 Button btnmetéo, btnBus, btncarte , btntaxi,btnhotel,btnparametre;
     @Override

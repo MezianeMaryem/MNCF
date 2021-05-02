@@ -16,15 +16,6 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
         TextView btn1=findViewById(R.id.btn1);
-        TextView btn2=findViewById(R.id.btn2);
-
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-        Intent intent1 = new Intent(MainActivity3.this,login.class);
-        startActivity(intent1);
-            }
-        });
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,5 +24,16 @@ public class MainActivity3 extends AppCompatActivity {
                 startActivity(intent2);
             }
         });
+
+        TextView btn2=findViewById(R.id.btn2);
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(MainActivity3.this,login.class);
+                startActivity(intent1);
+            }
+        });
+
     }
 }
