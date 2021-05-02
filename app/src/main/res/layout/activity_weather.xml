@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#242343"
-    tools:context=".MainActivity">
+    tools:context=".weather">
 
 
     <ImageView
@@ -57,7 +57,7 @@
             android:id="@+id/cityName"
             android:textStyle="bold"
             android:textSize="40sp"
-            android:text="Fetching___"
+            android:text="ville___"
             android:paddingStart="30sp"
             android:textColor="#ffffff"
             android:paddingLeft="30sp">

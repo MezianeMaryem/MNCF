@@ -30,6 +30,7 @@ public class Registration extends AppCompatActivity {
     ProgressBar progressBar;
     FirebaseFirestore fStore;
     String userID;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -116,7 +117,7 @@ public class Registration extends AppCompatActivity {
                                     Log.d("error", "onFailure: " + e.toString());
                                 }
                             });
-                            startActivity(new Intent(getApplicationContext(),pageprincipale.class));
+                            startActivity(new Intent(getApplicationContext(),city.class));
 
                         }else {
                             Toast.makeText(Registration.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();

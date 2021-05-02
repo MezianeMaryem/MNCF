@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mncf">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
@@ -13,13 +13,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MNCF">
-        <activity android:name=".cityFinder"></activity>
+        <activity android:name=".bus"></activity>
+        <activity android:name=".city" />
+        <activity android:name=".cityFinder" />
         <activity
             android:name=".weatherData"
             tools:ignore="Instantiatable" />
         <activity android:name=".weather" />
         <activity android:name=".pageprincipale" />
-        <activity android:name=".forgotpassword" />
         <activity android:name=".Registration" />
         <activity android:name=".login" />
         <activity android:name=".MainActivity3" />
