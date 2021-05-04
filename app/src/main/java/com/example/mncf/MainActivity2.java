@@ -13,59 +13,94 @@ import worker8.com.github.radiogroupplus.RadioGroupPlus;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    RadioGroupPlus btnpays;
-    TextView btnContinuer;
+    Button maroc,algerie,deutschland,italie,nederland,espagne,france,tunisie;;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        btnpays=findViewById(R.id.pays);
-        btnContinuer=findViewById(R.id.Continuer);
-        btnContinuer.setOnClickListener(new View.OnClickListener() {
+
+        maroc=findViewById(R.id.btnmaroc);
+        maroc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int id = btnpays.getCheckedRadioButtonId();
-                switch (id){
-                    case R.id.algerie:
-                        Message.message(getApplicationContext(), "Bienvenue à MNCF algérie");
-                        break;
-
-                    case R.id.deutschland:
-                        Message.message(getApplicationContext(), "Willkommen in  MNCF Deutschland");
-                        break;
-
-                    case R.id.espagne:
-                        Message.message(getApplicationContext(), "Bienvenido a MNCF España");
-                        break;
-
-                    case R.id.italie:
-                        Message.message(getApplicationContext(), "Benvenuto in MNCF Italia");
-                        break;
-
-                    case R.id.france:
-                        Message.message(getApplicationContext(), "Bienvenue à MNCF France");
-                        break;
-
-                    case R.id.maroc:
-                        Message.message(getApplicationContext(), "Bienvenue à MNCF Maroc");
-                        Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
-                        startActivity(intent);
-                        break;
-
-                    case R.id.nederland:
-                        Message.message(getApplicationContext(), "Welkom in MNCF Nederland");
-                        break;
-
-                    case R.id.tunisie:
-                        Message.message(getApplicationContext(), "Bienvenue à MNCF Tunisie");
-                        break;
-
-                    default:
-                        Message.message(getApplicationContext(),"veillez saisir un pay svp !!");
-                }
+                Message.message(getApplicationContext(), "Bienvenue à MNCF Maroc");
+                Intent intent1=new Intent(MainActivity2.this,MainActivity3.class);
+                startActivity(intent1);
             }
         });
+
+        algerie=findViewById(R.id.btnalgerie);
+        algerie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Message.message(getApplicationContext(), "Bienvenue à MNCF algérie");
+                Intent intent2=new Intent(MainActivity2.this,notfound.class);
+                startActivity(intent2);
+            }
+        });
+
+        deutschland=findViewById(R.id.btndeutschland);
+        deutschland.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Message.message(getApplicationContext(), "Willkommen in  MNCF Deutschland");
+                Intent intent3=new Intent(MainActivity2.this,notfound.class);
+                startActivity(intent3);
+            }
+        });
+
+        espagne=findViewById(R.id.btnespagne);
+        espagne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Message.message(getApplicationContext(), "Bienvenido a MNCF España");
+                Intent intent4=new Intent(MainActivity2.this,notfound.class);
+                startActivity(intent4);
+            }
+        });
+
+        italie=findViewById(R.id.btnitalie);
+        italie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Message.message(getApplicationContext(), "Benvenuto in MNCF Italia");
+                Intent intent5=new Intent(MainActivity2.this,notfound.class);
+                startActivity(intent5);
+            }
+        });
+
+        france=findViewById(R.id.btnfrance);
+        france.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Message.message(getApplicationContext(), "Bienvenue à MNCF France");
+                Intent intent6=new Intent(MainActivity2.this,notfound.class);
+                startActivity(intent6);
+            }
+        });
+
+        nederland=findViewById(R.id.btnnederland);
+        nederland.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Message.message(getApplicationContext(), "Welkom in MNCF Nederland");
+                Intent intent7=new Intent(MainActivity2.this,notfound.class);
+                startActivity(intent7);
+            }
+        });
+
+        tunisie=findViewById(R.id.btntunisie);
+        tunisie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Message.message(getApplicationContext(), "Bienvenue à MNCF Tunisie");
+                Intent intent8=new Intent(MainActivity2.this,notfound.class);
+                startActivity(intent8);
+            }
+        });
+
 
     }
 }

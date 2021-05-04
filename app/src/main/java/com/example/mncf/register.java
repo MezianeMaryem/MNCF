@@ -23,7 +23,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Registration extends AppCompatActivity {
+public class register extends AppCompatActivity {
     EditText mFullName,mEmail,mPassword,mPhone;
     TextView mRegisterBtn,mLoginBtn;
     FirebaseAuth fAuth;
@@ -34,7 +34,7 @@ public class Registration extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
+        setContentView(R.layout.activity_register);
 
 
         mFullName   = findViewById(R.id.inputUsername);
@@ -90,7 +90,7 @@ public class Registration extends AppCompatActivity {
                             fuser.sendEmailVerification().addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
-                                    Toast.makeText(Registration.this, "une verification Email est envoyé.", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(register.this, "une verification Email est envoyé.", Toast.LENGTH_SHORT).show();
                                 }
                             }).addOnFailureListener(new OnFailureListener() {
                                 @Override
@@ -99,7 +99,7 @@ public class Registration extends AppCompatActivity {
                                 }
                             });
 
-                            Toast.makeText(Registration.this, "Utilisateur crée.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(register.this, "Utilisateur crée.", Toast.LENGTH_SHORT).show();
                             userID = fAuth.getCurrentUser().getUid();
                             DocumentReference documentReference = fStore.collection("users").document(userID);
                             Map<String,Object> user = new HashMap<>();
@@ -120,7 +120,7 @@ public class Registration extends AppCompatActivity {
                             startActivity(new Intent(getApplicationContext(),city.class));
 
                         }else {
-                            Toast.makeText(Registration.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(register.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.GONE);
                         }
                     }
@@ -133,7 +133,7 @@ public class Registration extends AppCompatActivity {
         alreadyHaveAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(Registration.this,login.class);
+                Intent intent2 = new Intent(register.this,login.class);
                 startActivity(intent2);
             }
         });

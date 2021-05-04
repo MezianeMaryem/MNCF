@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MNCF">
-        <activity android:name=".bus"></activity>
+        <activity android:name=".notfound"></activity>
+        <activity android:name=".register" />
+        <activity android:name=".bus" />
         <activity android:name=".city" />
         <activity android:name=".cityFinder" />
         <activity
@@ -21,7 +23,6 @@
             tools:ignore="Instantiatable" />
         <activity android:name=".weather" />
         <activity android:name=".pageprincipale" />
-        <activity android:name=".Registration" />
         <activity android:name=".login" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity2" />

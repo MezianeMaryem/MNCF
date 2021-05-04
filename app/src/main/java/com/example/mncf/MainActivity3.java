@@ -16,11 +16,10 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
         TextView btn1=findViewById(R.id.btn1);
-
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(MainActivity3.this,Registration.class);
+                Intent intent2 = new Intent(MainActivity3.this,register.class);
                 startActivity(intent2);
             }
         });
