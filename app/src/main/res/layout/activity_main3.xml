@@ -7,7 +7,12 @@
     android:layout_height="match_parent"
     android:background="#C9F3F7"
     tools:context=".MainActivity3">
-
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints,RtlHardcoded,UselessParent">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="159dp"
@@ -204,5 +209,5 @@
 
     </LinearLayout>
 
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

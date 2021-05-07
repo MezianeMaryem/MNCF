@@ -7,7 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".register"
     android:background="@drawable/blue_bg">
-
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints,RtlHardcoded,UselessParent">
     <TextView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
@@ -164,5 +169,5 @@
         app:layout_constraintTop_toBottomOf="@+id/alreadyHaveAccount"
         android:layout_marginTop="10dp"
         />
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
