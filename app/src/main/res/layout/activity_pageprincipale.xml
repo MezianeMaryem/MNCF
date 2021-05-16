@@ -39,7 +39,7 @@
                     android:layout_marginTop="10dp"
                     android:textStyle="italic"
                     android:textColor="#C9F3F7"
-                    >
+                    tools:ignore="HardcodedText">
                 </TextView>
             </LinearLayout>
 
@@ -53,12 +53,12 @@
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_height="230dp"
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
@@ -79,7 +79,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtprofile"
                                 android:text="Horaire Bus"
-                                android:textSize="16sp"
+                                android:textSize="13sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
@@ -87,19 +87,20 @@
                                 android:layout_below="@+id/profile"
                                 tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:id="@+id/btnprofile"
                                 android:background="@android:color/transparent"
                                 android:onClick="profilebtn"
-                                tools:ignore="OnClick"></Button>
+                                tools:ignore="OnClick" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
@@ -112,25 +113,30 @@
                                 android:layout_height="80dp"
                                 android:id="@+id/rute"
                                 android:src="@drawable/route"
-                                android:layout_centerInParent="true">
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtrute"
                                 android:text="Météo"
-                                android:textSize="16sp"
+                                android:textSize="13sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/rute">
+                                android:layout_below="@+id/rute"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:id="@+id/btnrout"
-                                android:background="@android:color/transparent"></Button>
+                                android:onClick="routbtn"
+                                android:background="@android:color/transparent"
+                                tools:ignore="OnClick" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -138,12 +144,12 @@
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_height="230dp"
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
@@ -156,31 +162,36 @@
                                 android:layout_height="80dp"
                                 android:id="@+id/history"
                                 android:src="@drawable/history"
-                                android:layout_centerInParent="true">
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txthistory"
                                 android:text="Carte d'abonnement"
-                                android:textSize="16sp"
+                                android:textSize="13sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/history">
+                                android:layout_below="@+id/history"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:id="@+id/btnhistory"
-                                android:background="@android:color/transparent"></Button>
+                                android:onClick="historybtn"
+                                android:background="@android:color/transparent"
+                                tools:ignore="OnClick" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
@@ -193,25 +204,30 @@
                                 android:layout_height="80dp"
                                 android:id="@+id/feedback"
                                 android:src="@drawable/feedback"
-                                android:layout_centerInParent="true">
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtfeedback"
                                 android:text="Commander un taxi"
-                                android:textSize="16sp"
+                                android:textSize="13sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/feedback">
+                                android:layout_below="@+id/feedback"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnfeedbak"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btnfeedback"
+                                android:onClick="feedbackbtn"
+                                android:background="@android:color/transparent"
+                                tools:ignore="OnClick" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -224,7 +240,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
@@ -237,31 +253,36 @@
                                 android:layout_height="80dp"
                                 android:id="@+id/setting"
                                 android:src="@drawable/support"
-                                android:layout_centerInParent="true">
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtsetting"
-                                android:text="Réserver un hôtel"
-                                android:textSize="16sp"
+                                android:text="Map"
+                                android:textSize="13sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/setting">
+                                android:layout_below="@+id/setting"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:id="@+id/btnsetting"
-                                android:background="@android:color/transparent"></Button>
+                                android:onClick="settingbtn"
+                                android:background="@android:color/transparent"
+                                tools:ignore="OnClick" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="210dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
@@ -274,25 +295,30 @@
                                 android:layout_height="80dp"
                                 android:id="@+id/support"
                                 android:src="@drawable/setting"
-                                android:layout_centerInParent="true">
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtsupport"
                                 android:text="Paramètres"
-                                android:textSize="16sp"
+                                android:textSize="13sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/support">
+                                android:layout_below="@+id/support"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:id="@+id/btnsupport"
-                                android:background="@android:color/transparent"></Button>
+                                android:onClick="supportbtn"
+                                android:background="@android:color/transparent"
+                                tools:ignore="OnClick" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>

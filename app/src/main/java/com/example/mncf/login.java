@@ -30,16 +30,9 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        TextView login=findViewById(R.id.login);
         TextView jecréeuncompte=findViewById(R.id.jecréeuncompte);
 
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(login.this,city.class);
-                startActivity(intent);
-            }
-        });
+
 
         jecréeuncompte.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,8 +72,6 @@ public class login extends AppCompatActivity {
                     mPassword.setError("mot de passe doit contenir >= 6 Characters");
                     return;
                 }
-
-                progressBar.setVisibility(View.VISIBLE);
 
                 // authenticate the user
 

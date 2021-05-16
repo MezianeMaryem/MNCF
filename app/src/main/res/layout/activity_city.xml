@@ -20,7 +20,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="220dp"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:background="@drawable/blue_bg">
@@ -34,12 +34,21 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bienvenue à MNCF Maroc"
+                    android:text="Bienvenue à MNCF Maroc !"
                     android:textSize="20sp"
                     android:layout_marginTop="10dp"
                     android:textStyle="italic"
                     android:textColor="#C9F3F7"
-                    >
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veillez choisir votre ville!"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="#C9F3F7"
+                    tools:ignore="HardcodedText">
                 </TextView>
             </LinearLayout>
 
@@ -47,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="210dp"
+                android:layout_marginTop="240dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 >
@@ -87,13 +96,14 @@
                                 android:layout_below="@+id/casablanca"
                                 tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:id="@+id/btncasablanca"
                                 android:background="@android:color/transparent"
                                 android:onClick="casablancabtn"
-                                tools:ignore="OnClick"></Button>
+                                tools:ignore="OnClick" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -110,27 +120,32 @@
                             <ImageView
                                 android:layout_width="200dp"
                                 android:layout_height="80dp"
-                                android:id="@+id/Fes"
-                                android:src="@drawable/fes"
-                                android:layout_centerInParent="true">
+                                android:id="@+id/eljadida"
+                                android:src="@drawable/eljadida"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txtfes"
-                                android:text="Fès"
+                                android:id="@+id/txteljadida"
+                                android:text="EL Jadida"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/Fes">
+                                android:layout_below="@+id/eljadida"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnfes"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btneljadida"
+                                android:background="@android:color/transparent"
+                                android:onClick="eljadidabtn"
+                                tools:ignore="OnClick" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -154,27 +169,30 @@
                             <ImageView
                                 android:layout_width="200dp"
                                 android:layout_height="80dp"
-                                android:id="@+id/tanger"
-                                android:src="@drawable/tanger"
-                                android:layout_centerInParent="true">
+                                android:id="@+id/fes"
+                                android:src="@drawable/fes"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txttanger"
-                                android:text="Tanger"
+                                android:id="@+id/txtfes"
+                                android:text="Fes"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/tanger">
+                                android:layout_below="@+id/fes"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btntanger"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btnfes"
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -194,7 +212,8 @@
                                 android:layout_height="80dp"
                                 android:id="@+id/marrakech"
                                 android:src="@drawable/marrakech"
-                                android:layout_centerInParent="true">
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
@@ -206,13 +225,15 @@
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/marrakech">
+                                android:layout_below="@+id/marrakech"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnmarrakech"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btnfrance"
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -236,27 +257,30 @@
                             <ImageView
                                 android:layout_width="300dp"
                                 android:layout_height="80dp"
-                                android:id="@+id/salé"
-                                android:src="@drawable/sale"
-                                android:layout_centerInParent="true">
+                                android:id="@+id/media"
+                                android:src="@drawable/media"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txtsalé"
-                                android:text="Salé"
+                                android:id="@+id/txtmedia"
+                                android:text="Mohammedia"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/salé">
+                                android:layout_below="@+id/media"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnsalé"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btnmedia"
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -273,27 +297,30 @@
                             <ImageView
                                 android:layout_width="150dp"
                                 android:layout_height="80dp"
-                                android:id="@+id/eljadida"
-                                android:src="@drawable/eljadida"
-                                android:layout_centerInParent="true">
+                                android:id="@+id/oujda"
+                                android:src="@drawable/oujda"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txteljadida"
-                                android:text="El Jadida"
+                                android:id="@+id/txtoujda"
+                                android:text="Oujda"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/eljadida">
+                                android:layout_below="@+id/oujda"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnelJadida"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btnoujda"
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
 
@@ -321,7 +348,8 @@
                                 android:layout_height="80dp"
                                 android:id="@+id/rabat"
                                 android:src="@drawable/rabat"
-                                android:layout_centerInParent="true">
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
@@ -333,13 +361,15 @@
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/rabat">
+                                android:layout_below="@+id/rabat"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:id="@+id/btnrabat"
-                                android:background="@android:color/transparent"></Button>
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -356,27 +386,30 @@
                             <ImageView
                                 android:layout_width="150dp"
                                 android:layout_height="80dp"
-                                android:id="@+id/temara"
-                                android:src="@drawable/temara"
-                                android:layout_centerInParent="true">
+                                android:id="@+id/safi"
+                                android:src="@drawable/safi"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txttemara"
-                                android:text="Temara"
+                                android:id="@+id/txtsafi"
+                                android:text="Safi"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/temara">
+                                android:layout_below="@+id/safi"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btntemara"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btnsafi"
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
 
@@ -402,27 +435,30 @@
                             <ImageView
                                 android:layout_width="300dp"
                                 android:layout_height="80dp"
-                                android:id="@+id/media"
-                                android:src="@drawable/media"
-                                android:layout_centerInParent="true">
+                                android:id="@+id/sale"
+                                android:src="@drawable/sale"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txtmedia"
-                                android:text="Mohammedia"
+                                android:id="@+id/txtsale"
+                                android:text="Salé"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/media">
+                                android:layout_below="@+id/sale"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnmedia"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btnsale"
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -439,30 +475,34 @@
                             <ImageView
                                 android:layout_width="150dp"
                                 android:layout_height="80dp"
-                                android:id="@+id/safi"
-                                android:src="@drawable/safi"
-                                android:layout_centerInParent="true">
+                                android:id="@+id/tanger"
+                                android:src="@drawable/tanger"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txtsafi"
-                                android:text="Safi"
+                                android:id="@+id/txttanger"
+                                android:text="Tanger"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/safi">
+                                android:layout_below="@+id/tanger"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnsafi"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btntanger"
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -484,7 +524,8 @@
                                 android:layout_height="80dp"
                                 android:id="@+id/taza"
                                 android:src="@drawable/taza"
-                                android:layout_centerInParent="true">
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
@@ -496,13 +537,15 @@
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/taza">
+                                android:layout_below="@+id/taza"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:id="@+id/btntaza"
-                                android:background="@android:color/transparent"></Button>
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -519,27 +562,30 @@
                             <ImageView
                                 android:layout_width="150dp"
                                 android:layout_height="80dp"
-                                android:id="@+id/oujda"
-                                android:src="@drawable/oujda"
-                                android:layout_centerInParent="true">
+                                android:id="@+id/temara"
+                                android:src="@drawable/temara"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txtoujda"
-                                android:text="Oujda"
+                                android:id="@+id/txttemara"
+                                android:text="Temara"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/oujda">
+                                android:layout_below="@+id/temara"
+                                tools:ignore="HardcodedText">
                             </TextView>
+
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnoujda"
-                                android:background="@android:color/transparent"></Button>
+                                android:id="@+id/btntemara"
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>

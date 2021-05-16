@@ -14,7 +14,7 @@ Button eljadida;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_city);
 
-        eljadida=findViewById(R.id.btnelJadida);
+        eljadida=findViewById(R.id.btneljadida);
         eljadida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -22,5 +22,15 @@ Button eljadida;
                 startActivity(intent1);
             }
         });
+    }
+
+    public void eljadidabtn(View view) {
+        Intent intent1 = new Intent(city.this,pageprincipale.class);
+        startActivity(intent1);
+    }
+
+    public void casablancabtn(View view) {
+        Intent intent2 = new Intent(city.this,notfound.class);
+        startActivity(intent2);
     }
 }

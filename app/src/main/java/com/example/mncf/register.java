@@ -120,7 +120,7 @@ public class register extends AppCompatActivity {
                             startActivity(new Intent(getApplicationContext(),city.class));
 
                         }else {
-                            Toast.makeText(register.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(register.this, "Erreur ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.GONE);
                         }
                     }
