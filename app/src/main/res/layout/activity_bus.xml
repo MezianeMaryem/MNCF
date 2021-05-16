@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bus">
+    tools:context=".bus"
+    android:background="@drawable/blue_bg">
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -15,10 +16,142 @@
         <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="#C9F3F7"
             tools:ignore="ScrollViewSize">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="60dp"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/logo"
+                    tools:ignore="ContentDescription">
 
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bonjour,"
+                    android:textSize="25sp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:textStyle="bold"
+                    android:textColor="#C9F3F7"
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Oû désirez-vous allez?"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#C9F3F7"
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arrêt de départ:"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#C9F3F7"
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <EditText
+                    android:id="@+id/depart"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#FFF"
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,LabelFor" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arrêt d'arrivée:"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#C9F3F7"
+                    tools:ignore="HardcodedText">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/arrivée"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#FFF"
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Départ le:"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#C9F3F7"
+                    tools:ignore="HardcodedText">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#FFF"
+                    android:hint="  JJ/MM/AA  "
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <TextView
+                    android:id="@+id/btnRechercher"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#0D747E"
+                    android:gravity="center"
+                    android:text="Rechercher"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
 
         </RelativeLayout>

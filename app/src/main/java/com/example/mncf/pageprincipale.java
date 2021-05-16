@@ -17,11 +17,14 @@ public class pageprincipale extends AppCompatActivity {
     }
 
     public void profilebtn(View view) {
+        Intent intent1= new Intent(pageprincipale.this,bus.class);
+        startActivity(intent1);
+
     }
 
     public void routbtn(View view) {
-        Intent intent1= new Intent(pageprincipale.this,meteo.class);
-        startActivity(intent1);
+        Intent intent2= new Intent(pageprincipale.this,meteo.class);
+        startActivity(intent2);
     }
 
     public void historybtn(View view) {
