@@ -34,6 +34,8 @@ public class pageprincipale extends AppCompatActivity {
     }
 
     public void feedbackbtn(View view) {
+        Intent intent4 = new Intent(pageprincipale.this,taxi.class);
+        startActivity(intent4);
     }
 
     public void settingbtn(View view) {

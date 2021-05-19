@@ -18,7 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MNCF"
         android:usesCleartextTraffic="true">
-        <activity android:name=".taxi"></activity>
+        <activity android:name=".taxi2"></activity>
+        <activity android:name=".taxi" />
         <activity android:name=".parametre" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
