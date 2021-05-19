@@ -255,6 +255,48 @@
                             <ImageView
                                 android:layout_width="150dp"
                                 android:layout_height="80dp"
+                                android:id="@+id/mescommandes"
+                                android:src="@drawable/logout"
+                                android:layout_centerInParent="true"
+                                tools:ignore="ContentDescription">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtmescommandes"
+                                android:text="Deconexion"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#000"
+                                android:layout_below="@+id/mescommandes"
+                                tools:ignore="HardcodedText">
+                            </TextView>
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/btnmescommandes"
+                                android:onClick="mescommandesbtn"
+                                tools:ignore="OnClick"
+                                android:background="@android:color/transparent" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="80dp"
                                 android:id="@+id/logout"
                                 android:src="@drawable/logout"
                                 android:layout_centerInParent="true"
@@ -283,7 +325,9 @@
                                 android:background="@android:color/transparent" />
                         </RelativeLayout>
                     </androidx.cardview.widget.CardView>
+
                 </LinearLayout>
+
             </LinearLayout>
         </RelativeLayout>
     </ScrollView>

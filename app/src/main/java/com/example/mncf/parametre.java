@@ -29,4 +29,11 @@ public class parametre extends AppCompatActivity {
         Intent intent4= new Intent(parametre.this,login.class);
         startActivity(intent4);
     }
+
+    public void abbobtn(View view) {
+
+    }
+
+    public void mescommandesbtn(View view) {
+    }
 }
