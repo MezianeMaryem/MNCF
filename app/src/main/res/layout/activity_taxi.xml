@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".taxi"
+    android:background="@drawable/taxi">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="RtlHardcoded,UselessParent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:ignore="ScrollViewSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="60dp"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/logo"
+                    tools:ignore="ContentDescription">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Bonjour, "
+                    android:background="#fff"
+                    android:textSize="25sp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="#fff"
+                    android:text="MNCF TAXI à votre service. Oû désirez-vous allez?"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginBottom="100dp"
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Nom _ Prénom:"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:background="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_regular"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#0D747E"
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,LabelFor"
+                    tools:targetApi="lollipop" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Numéro de téléphone:"
+                    android:background="#fff"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <EditText
+                    android:id="@+id/num"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_regular"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#0D747E"
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,LabelFor"
+                    tools:targetApi="lollipop" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Votre position:"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:background="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    tools:ignore="HardcodedText">
+                </TextView>
+                <EditText
+                    android:id="@+id/depart"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_regular"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#0D747E"
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,LabelFor"
+                    tools:targetApi="lollipop" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Votre destination:"
+                    android:layout_gravity="left"
+                    android:textSize="18sp"
+                    android:background="#fff"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    tools:ignore="HardcodedText">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/arrivée"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,LabelFor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Départ le:"
+                    android:layout_gravity="left"
+                    android:background="#fff"
+                    android:textSize="18sp"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    tools:ignore="HardcodedText">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000"
+                    android:hint="  JJ/MM/AA  "
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TextFields" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#fff"
+                    android:gravity="left"
+                    android:text="  à : "
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+                <EditText
+                    android:id="@+id/heure"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_bg"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000"
+                    android:hint="  HH:MM  "
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColorHint="#FFF"
+                    tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                <TextView
+                    android:id="@+id/btnCommande"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#8faac7"
+                    android:gravity="center"
+                    android:text="Commander"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
