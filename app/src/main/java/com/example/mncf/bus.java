@@ -28,7 +28,7 @@ public class bus extends AppCompatActivity {
         setContentView(R.layout.activity_bus);
 
         Spinner mySpinner1=(Spinner) findViewById(R.id.depart);
-        Spinner mySpinner2=(Spinner) findViewById(R.id.depart);
+        Spinner mySpinner2=(Spinner) findViewById(R.id.arrivée);
 
         ArrayAdapter<String> myAdapter1 = new ArrayAdapter<String>(bus.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.depart));

@@ -22,14 +22,15 @@
                 android:orientation="vertical">
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="273dp"
+                    android:layout_height="130dp"
                     android:background="@drawable/blue_bg">
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="93dp"
-                        android:src="@drawable/logo" />
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/logo"
+                        tools:ignore="ContentDescription" />
                 </FrameLayout>
 
 
@@ -39,7 +40,10 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="20dp"
-                        android:src="@drawable/bustrajet" />
+                        android:src="@drawable/bustrajet"
+                        tools:ignore="ContentDescription" />
+
+
                 <TextView
                     android:id="@+id/textView0"
                     android:layout_width="wrap_content"
@@ -48,6 +52,7 @@
                     android:text="ligne 1"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
+                    android:background="#FFF"
                     android:textSize="25sp"
                     android:layout_marginTop="20dp"
                     android:textStyle="bold"
@@ -60,9 +65,10 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="Ahfir -----------> Douar Dar Kaid "
+                        android:background="#FFF"
                         android:textColor="#0A5F69"
                         android:layout_gravity="center"
-                        android:textSize="25sp"
+                        android:textSize="18sp"
                         android:layout_marginTop="20dp"
                         android:textStyle="bold"
                         android:visibility="visible"
@@ -75,8 +81,9 @@
                     android:gravity="center"
                     android:text="Durée Trajet : 45 min"
                     android:textColor="#0A5F69"
+                    android:background="#FFF"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:textSize="18sp"
                     android:layout_marginTop="10dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -89,7 +96,8 @@
                     android:text="Fréquence : 90 min"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:background="#FFF"
+                    android:textSize="18sp"
                     android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -102,7 +110,8 @@
                     android:text="Tarifs : 3,00 Dhs"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:background="#FFF"
+                    android:textSize="18sp"
                     android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -115,24 +124,26 @@
                     android:text="Trajet : "
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:textSize="18sp"
                     android:layout_marginTop="20dp"
+                    android:background="#FFF"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textView55"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:text="Aller ----------------->Retour "
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:textSize="18sp"
                     android:layout_marginTop="20dp"
+                    android:background="#FFF"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -156,9 +167,9 @@
                                 android:layout_marginTop="10dp"
                                 android:text="Ahfir"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
-                                tools:ignore="HardcodedText" />
+                                android:textSize="15sp"
+                                android:textStyle="italic"
+                                tools:ignore="HardcodedText,SpUsage" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -166,9 +177,9 @@
                                 android:layout_marginTop="40dp"
                                 android:text="Av Mohamed Traii"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
-                                tools:ignore="HardcodedText" />
+                                android:textSize="15sp"
+                                android:textStyle="italic"
+                                tools:ignore="HardcodedText,SpUsage" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -176,8 +187,8 @@
                                 android:layout_marginTop="70dp"
                                 android:text="Av Fkih Rifi"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -186,8 +197,8 @@
                                 android:layout_marginTop="100dp"
                                 android:text="Chohada 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -196,8 +207,8 @@
                                 android:layout_marginTop="130dp"
                                 android:text="Chohada 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -206,8 +217,8 @@
                                 android:layout_marginTop="160dp"
                                 android:text="Chohada 3"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -216,8 +227,8 @@
                                 android:layout_marginTop="190dp"
                                 android:text="Hay Al Manar"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -226,8 +237,8 @@
                                 android:layout_marginTop="220dp"
                                 android:text="Essaada 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -236,8 +247,8 @@
                                 android:layout_marginTop="250dp"
                                 android:text="Essaada 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -246,8 +257,8 @@
                                 android:layout_marginTop="280dp"
                                 android:text="Essaada 3"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -256,8 +267,8 @@
                                 android:layout_marginTop="300dp"
                                 android:text="Bennani"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
 
@@ -267,8 +278,8 @@
                                 android:layout_marginTop="330dp"
                                 android:text="Av Jabrane Khalil Jabrane"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="10sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -277,8 +288,8 @@
                                 android:layout_marginTop="360dp"
                                 android:text="Hay Elmatar 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -287,8 +298,8 @@
                                 android:layout_marginTop="390dp"
                                 android:text="Hay Elmatar 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -297,8 +308,8 @@
                                 android:layout_marginTop="420dp"
                                 android:text="Hay Elmatar 3"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -307,8 +318,8 @@
                                 android:layout_marginTop="450dp"
                                 android:text="Hay Elmatar 4"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -317,8 +328,8 @@
                                 android:layout_marginTop="480dp"
                                 android:text="Hay Elmatar 5"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -327,8 +338,8 @@
                                 android:layout_marginTop="510dp"
                                 android:text="Dr Elhaj Abbass 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -337,8 +348,8 @@
                                 android:layout_marginTop="540dp"
                                 android:text="Dr Elhaj Abbass 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -347,8 +358,8 @@
                                 android:layout_marginTop="570dp"
                                 android:text="Najd"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -357,8 +368,8 @@
                                 android:layout_marginTop="600dp"
                                 android:text="Hay Salam"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -367,8 +378,8 @@
                                 android:layout_marginTop="630dp"
                                 android:text="Bir Anzarane 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -377,8 +388,8 @@
                                 android:layout_marginTop="660dp"
                                 android:text="Bir Anzarane 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -387,8 +398,8 @@
                                 android:layout_marginTop="690dp"
                                 android:text="Route Nationale N° 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="12sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -397,8 +408,8 @@
                                 android:layout_marginTop="720dp"
                                 android:text="Route Nationale N° 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="12sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -407,8 +418,8 @@
                                 android:layout_marginTop="750dp"
                                 android:text="Route De Marakeche 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="11sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -417,8 +428,8 @@
                                 android:layout_marginTop="780dp"
                                 android:text="Route De Marakeche 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="11sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -427,8 +438,8 @@
                                 android:layout_marginTop="810dp"
                                 android:text="Tikni 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -437,8 +448,8 @@
                                 android:layout_marginTop="840dp"
                                 android:text="Tikni 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -447,8 +458,8 @@
                                 android:layout_marginTop="870dp"
                                 android:text="Douar Dar Kaid"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
 
@@ -472,8 +483,8 @@
                                 android:layout_marginTop="10dp"
                                 android:text="Douar Dar Kaid"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
                             <TextView
                                 android:layout_width="match_parent"
@@ -481,8 +492,8 @@
                                 android:layout_marginTop="40dp"
                                 android:text="Tikni 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -491,8 +502,8 @@
                                 android:layout_marginTop="70dp"
                                 android:text="Tikni 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -501,8 +512,8 @@
                                 android:layout_marginTop="100dp"
                                 android:text="Route De Marakeche 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="11sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -511,8 +522,8 @@
                                 android:layout_marginTop="130dp"
                                 android:text="Route De Marakeche 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="11sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -521,8 +532,8 @@
                                 android:layout_marginTop="160dp"
                                 android:text="Route Nationale N° 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="11sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -531,8 +542,8 @@
                                 android:layout_marginTop="190dp"
                                 android:text="Bir Anzarane 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -541,8 +552,8 @@
                                 android:layout_marginTop="220dp"
                                 android:text="Bir Anzarane 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -551,8 +562,8 @@
                                 android:layout_marginTop="250dp"
                                 android:text="Hay Salam"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -561,8 +572,8 @@
                                 android:layout_marginTop="280dp"
                                 android:text="Najd"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -571,8 +582,8 @@
                                 android:layout_marginTop="300dp"
                                 android:text="Dr Elhaj Abbass 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -581,8 +592,8 @@
                                 android:layout_marginTop="330dp"
                                 android:text="Dr Elhaj Abbass 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -591,8 +602,8 @@
                                 android:layout_marginTop="360dp"
                                 android:text="Hay Elmatar 5"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -601,8 +612,8 @@
                                 android:layout_marginTop="390dp"
                                 android:text="Hay Elmatar 4"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -611,8 +622,8 @@
                                 android:layout_marginTop="420dp"
                                 android:text="Hay Elmatar 3"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -621,8 +632,8 @@
                                 android:layout_marginTop="450dp"
                                 android:text="Hay Elmatar 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -631,8 +642,8 @@
                                 android:layout_marginTop="480dp"
                                 android:text="Hay Elmatar 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -641,8 +652,8 @@
                                 android:layout_marginTop="510dp"
                                 android:text="Av Jabrane Khalil Jabrane"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="12sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -651,8 +662,8 @@
                                 android:layout_marginTop="540dp"
                                 android:text="Bennani"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -661,8 +672,8 @@
                                 android:layout_marginTop="570dp"
                                 android:text="Essaada 3"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -671,8 +682,8 @@
                                 android:layout_marginTop="600dp"
                                 android:text="Essaada 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -681,8 +692,8 @@
                                 android:layout_marginTop="630dp"
                                 android:text="Essaada 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -691,8 +702,8 @@
                                 android:layout_marginTop="660dp"
                                 android:text="Hay Al Manar"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -701,8 +712,8 @@
                                 android:layout_marginTop="690dp"
                                 android:text="Bir Anzarane 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -711,8 +722,8 @@
                                 android:layout_marginTop="720dp"
                                 android:text="Chohada 3"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -721,8 +732,8 @@
                                 android:layout_marginTop="750dp"
                                 android:text="Chohada 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -731,8 +742,8 @@
                                 android:layout_marginTop="780dp"
                                 android:text="Chohada 1"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -741,8 +752,8 @@
                                 android:layout_marginTop="810dp"
                                 android:text="Av Fkih Rifi"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -751,8 +762,8 @@
                                 android:layout_marginTop="840dp"
                                 android:text="Av Mohamed Traii"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -761,8 +772,8 @@
                                 android:layout_marginTop="870dp"
                                 android:text="Ahfir"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
 

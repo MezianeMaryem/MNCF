@@ -22,13 +22,13 @@
                 android:orientation="vertical">
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="273dp"
+                    android:layout_height="130dp"
                     android:background="@drawable/blue_bg">
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="93dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/logo"
                         tools:ignore="ContentDescription" />
                 </FrameLayout>
@@ -48,6 +48,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="ligne 14"
+                    android:background="#FFF"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
                     android:textSize="25sp"
@@ -64,7 +65,8 @@
                     android:text="El Ghorba -------> Mosquee Sidi Bouzide "
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:background="#FFF"
+                    android:textSize="20sp"
                     android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -78,7 +80,8 @@
                     android:text="Durée Trajet : 45 min"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
+                    android:background="#FFF"
                     android:layout_marginTop="10dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -91,7 +94,8 @@
                     android:text="Fréquence : 90 min"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
+                    android:background="#fff"
                     android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -104,7 +108,8 @@
                     android:text="Tarifs : 3,00 Dhs"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
+                    android:background="#FFF"
                     android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -117,7 +122,8 @@
                     android:text="Trajet : "
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
+                    android:background="#FFF"
                     android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -127,9 +133,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:text="Aller ----------------->Retour"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="25sp"
+                    android:background="#FFF"
+                    android:textSize="20sp"
                     android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
@@ -158,8 +166,8 @@
                                 android:layout_marginTop="10dp"
                                 android:text="El Ghorba	"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -168,8 +176,8 @@
                                 android:layout_marginTop="40dp"
                                 android:text="Haouziya 3"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -178,8 +186,8 @@
                                 android:layout_marginTop="70dp"
                                 android:text="Haouziya 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -188,8 +196,8 @@
                                 android:layout_marginTop="100dp"
                                 android:text="Cite Universitaire"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -198,8 +206,8 @@
                                 android:layout_marginTop="130dp"
                                 android:text="Al Boustane"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -208,8 +216,8 @@
                                 android:layout_marginTop="160dp"
                                 android:text="Hopital Civil"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -218,8 +226,8 @@
                                 android:layout_marginTop="190dp"
                                 android:text="Ofppt"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -228,8 +236,8 @@
                                 android:layout_marginTop="220dp"
                                 android:text="Stade El Aabdi"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -238,8 +246,8 @@
                                 android:layout_marginTop="250dp"
                                 android:text="Place De France"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -248,8 +256,8 @@
                                 android:layout_marginTop="280dp"
                                 android:text="Gare Routiere"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -258,8 +266,8 @@
                                 android:layout_marginTop="300dp"
                                 android:text="Bank Al Maghrib"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
 
@@ -269,8 +277,8 @@
                                 android:layout_marginTop="330dp"
                                 android:text="Av Hassan Ii"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -279,8 +287,8 @@
                                 android:layout_marginTop="360dp"
                                 android:text="Complex D'artisanat"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -289,8 +297,8 @@
                                 android:layout_marginTop="390dp"
                                 android:text="Halima Assaadia"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -299,8 +307,8 @@
                                 android:layout_marginTop="420dp"
                                 android:text="Bir Anzarane"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -309,8 +317,8 @@
                                 android:layout_marginTop="450dp"
                                 android:text="El Hariti"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -319,8 +327,8 @@
                                 android:layout_marginTop="480dp"
                                 android:text="Mosquee Ibrahim Al Khalil"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -329,8 +337,8 @@
                                 android:layout_marginTop="510dp"
                                 android:text="Tahrir"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -339,8 +347,8 @@
                                 android:layout_marginTop="540dp"
                                 android:text="El Bahara"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -349,8 +357,8 @@
                                 android:layout_marginTop="570dp"
                                 android:text="Hacienda Iii"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -359,8 +367,8 @@
                                 android:layout_marginTop="600dp"
                                 android:text="Hacienda Ii"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -369,8 +377,8 @@
                                 android:layout_marginTop="630dp"
                                 android:text="Hacienda I"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -379,8 +387,8 @@
                                 android:layout_marginTop="660dp"
                                 android:text="Mosquee Sidi Bouzide"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                         </RelativeLayout>
@@ -403,8 +411,8 @@
                                 android:layout_marginTop="10dp"
                                 android:text="Mosquee Sidi Bouzide"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="13sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
                             <TextView
                                 android:layout_width="match_parent"
@@ -412,8 +420,8 @@
                                 android:layout_marginTop="40dp"
                                 android:text="Hacienda I"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -422,8 +430,8 @@
                                 android:layout_marginTop="70dp"
                                 android:text="Hacienda Ii"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -432,8 +440,8 @@
                                 android:layout_marginTop="100dp"
                                 android:text="Hacienda Iii"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -442,8 +450,8 @@
                                 android:layout_marginTop="130dp"
                                 android:text="El Bahara"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -452,8 +460,8 @@
                                 android:layout_marginTop="160dp"
                                 android:text="Tahrir"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -462,8 +470,8 @@
                                 android:layout_marginTop="190dp"
                                 android:text="Mosquee Ibrahim Al Khalil"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -472,8 +480,8 @@
                                 android:layout_marginTop="220dp"
                                 android:text="El Hariti"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -482,8 +490,8 @@
                                 android:layout_marginTop="250dp"
                                 android:text="Bir Anzarane"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -492,8 +500,8 @@
                                 android:layout_marginTop="280dp"
                                 android:text="Halima Assaadia"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -502,8 +510,8 @@
                                 android:layout_marginTop="300dp"
                                 android:text="Complex D'artisanat"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -512,8 +520,8 @@
                                 android:layout_marginTop="330dp"
                                 android:text="Av Hassan Ii"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -522,8 +530,8 @@
                                 android:layout_marginTop="360dp"
                                 android:text="Bank Al Maghrib"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -532,8 +540,8 @@
                                 android:layout_marginTop="390dp"
                                 android:text="Gare Routiere"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -542,8 +550,8 @@
                                 android:layout_marginTop="420dp"
                                 android:text="Place De France"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -552,8 +560,8 @@
                                 android:layout_marginTop="450dp"
                                 android:text="Stade El Aabdi"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -562,8 +570,8 @@
                                 android:layout_marginTop="480dp"
                                 android:text="Ofppt"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -572,8 +580,8 @@
                                 android:layout_marginTop="510dp"
                                 android:text="Hopital Civil"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -582,8 +590,8 @@
                                 android:layout_marginTop="540dp"
                                 android:text="Al Boustane"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -592,8 +600,8 @@
                                 android:layout_marginTop="570dp"
                                 android:text="Cite Universitaire"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -602,8 +610,8 @@
                                 android:layout_marginTop="600dp"
                                 android:text="Haouziya 2"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -612,8 +620,8 @@
                                 android:layout_marginTop="630dp"
                                 android:text="Haouziya 3"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                             <TextView
@@ -622,8 +630,8 @@
                                 android:layout_marginTop="660dp"
                                 android:text="El Ghorba"
                                 android:textColor="#000"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textStyle="italic"
                                 tools:ignore="HardcodedText" />
 
                         </RelativeLayout>
