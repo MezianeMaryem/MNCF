@@ -18,7 +18,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MNCF"
         android:usesCleartextTraffic="true">
-        <activity android:name=".taxi2"></activity>
+        <activity android:name=".line17"></activity>
+        <activity android:name=".line18" />
+        <activity android:name=".line19" />
+        <activity android:name=".line20" />
+        <activity android:name=".line16" />
+        <activity android:name=".line15" />
+        <activity android:name=".line14" />
+        <activity android:name=".line13" />
+        <activity android:name=".line10" />
+        <activity android:name=".line6" />
+        <activity android:name=".line5" />
+        <activity android:name=".line4" />
+        <activity android:name=".line1" />
+        <activity android:name=".taxi2" />
         <activity android:name=".taxi" />
         <activity android:name=".parametre" />
         <!--

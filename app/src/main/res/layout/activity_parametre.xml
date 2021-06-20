@@ -256,7 +256,7 @@
                                 android:layout_width="150dp"
                                 android:layout_height="80dp"
                                 android:id="@+id/mescommandes"
-                                android:src="@drawable/logout"
+                                android:src="@drawable/mescommandes"
                                 android:layout_centerInParent="true"
                                 tools:ignore="ContentDescription">
                             </ImageView>
@@ -264,7 +264,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtmescommandes"
-                                android:text="Deconexion"
+                                android:text="Mes Commandes"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
