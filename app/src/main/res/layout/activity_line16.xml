@@ -29,7 +29,8 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="93dp"
-                        android:src="@drawable/logo" />
+                        android:src="@drawable/logo"
+                        tools:ignore="ContentDescription" />
                 </FrameLayout>
 
 
@@ -39,7 +40,8 @@
                     android:layout_height="100dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/bustrajet" />
+                    android:src="@drawable/bustrajet"
+                    tools:ignore="ContentDescription" />
                 <TextView
                     android:id="@+id/textView0"
                     android:layout_width="wrap_content"
@@ -125,7 +127,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Aller <--------------> Retour "
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
                     android:textSize="25sp"
@@ -432,6 +433,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-        </RelativeLayout>>
+        </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
