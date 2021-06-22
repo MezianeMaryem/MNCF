@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".line14"
-    android:background="#C9F3F7">
+    android:background="@drawable/bgg">
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -22,8 +22,7 @@
                 android:orientation="vertical">
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="130dp"
-                    android:background="@drawable/blue_bg">
+                    android:layout_height="130dp">
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -33,26 +32,17 @@
                         tools:ignore="ContentDescription" />
                 </FrameLayout>
 
-
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="20dp"
-                    android:src="@drawable/bustrajet"
-                    tools:ignore="ContentDescription" />
                 <TextView
                     android:id="@+id/textView0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="ligne 14"
-                    android:background="#FFF"
+                    android:background="#80FFFFFF"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
                     android:textSize="25sp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="30dp"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
@@ -65,578 +55,632 @@
                     android:text="El Ghorba -------> Mosquee Sidi Bouzide "
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:background="#FFF"
+                    android:background="#80FFFFFF"
                     android:textSize="20sp"
-                    android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="210dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Durée Trajet : 45 min"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
                     android:textSize="20sp"
-                    android:background="#FFF"
-                    android:layout_marginTop="10dp"
+                    android:background="#80FFFFFF"
+                    android:layout_marginTop="80dp"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="210dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Fréquence : 90 min"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
                     android:textSize="20sp"
-                    android:background="#fff"
-                    android:layout_marginTop="20dp"
+                    android:background="#80FFFFFF"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="210dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Tarifs : 3,00 Dhs"
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
                     android:textSize="20sp"
-                    android:background="#FFF"
-                    android:layout_marginTop="20dp"
+                    android:background="#80FFFFFF"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="wrap_content"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Trajet : "
+                    android:text="   Trajet :  "
                     android:textColor="#0A5F69"
                     android:layout_gravity="center"
-                    android:textSize="20sp"
-                    android:background="#FFF"
-                    android:layout_marginTop="20dp"
+                    android:textSize="25dp"
+                    android:background="#80FFFFFF"
+                    android:layout_marginTop="80dp"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_width="wrap_content"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Aller ----------------->Retour"
-                    android:textColor="#0A5F69"
+                    android:background="#80FFFFFF"
+                    android:textColor="#fff"
                     android:layout_gravity="center"
-                    android:background="#FFF"
                     android:textSize="20sp"
-                    android:layout_marginTop="20dp"
                     android:textStyle="bold"
                     android:visibility="visible"
                     tools:ignore="HardcodedText,MissingConstraints" />
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginTop="20dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:background="#80ffffff">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="0dp"
+
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_weight="1">
+                        android:background="#80ffffff">
 
-                        <RelativeLayout
+                        <TextView
+                            android:id="@+id/t1"
+                            android:layout_width="300dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text="El Ghorba	"
+                            android:textColor="#000"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText" />
+
+                        <ImageView
+                            android:id="@+id/i1"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t1"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/t2"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="match_parent"
+                            android:text="Haouziya 3"
+                            android:textColor="#000"
+                            android:textSize="17sp"
+                            android:gravity="center"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@+id/i1"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="10dp"
-                                android:text="El Ghorba	"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i2"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t2"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="40dp"
-                                android:text="Haouziya 3"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="70dp"
-                                android:text="Haouziya 2"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="100dp"
-                                android:text="Cite Universitaire"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="130dp"
-                                android:text="Al Boustane"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="160dp"
-                                android:text="Hopital Civil"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="190dp"
-                                android:text="Ofppt"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="220dp"
-                                android:text="Stade El Aabdi"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="250dp"
-                                android:text="Place De France"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="280dp"
-                                android:text="Gare Routiere"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="300dp"
-                                android:text="Bank Al Maghrib"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="330dp"
-                                android:text="Av Hassan Ii"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="360dp"
-                                android:text="Complex D'artisanat"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="390dp"
-                                android:text="Halima Assaadia"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="420dp"
-                                android:text="Bir Anzarane"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="450dp"
-                                android:text="El Hariti"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="480dp"
-                                android:text="Mosquee Ibrahim Al Khalil"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="510dp"
-                                android:text="Tahrir"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="540dp"
-                                android:text="El Bahara"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="570dp"
-                                android:text="Hacienda Iii"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="600dp"
-                                android:text="Hacienda Ii"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="630dp"
-                                android:text="Hacienda I"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="660dp"
-                                android:text="Mosquee Sidi Bouzide"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-
-                        </RelativeLayout>
-
-                    </androidx.cardview.widget.CardView>
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_weight="1">
-
-                        <RelativeLayout
+                        <TextView
+                            android:id="@+id/t3"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="match_parent"
+                            android:text="Haouziya 2"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i2"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="10dp"
-                                android:text="Mosquee Sidi Bouzide"
-                                android:textColor="#000"
-                                android:textSize="13sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="40dp"
-                                android:text="Hacienda I"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i3"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t3"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="70dp"
-                                android:text="Hacienda Ii"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Cite Universitaire"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i3"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="100dp"
-                                android:text="Hacienda Iii"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i4"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t4"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="130dp"
-                                android:text="El Bahara"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Al Boustane"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i4"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="160dp"
-                                android:text="Tahrir"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i5"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t5"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="190dp"
-                                android:text="Mosquee Ibrahim Al Khalil"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Hopital Civil"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i5"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="220dp"
-                                android:text="El Hariti"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i6"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t6"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="250dp"
-                                android:text="Bir Anzarane"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Stade El Aabdi"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i6"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="280dp"
-                                android:text="Halima Assaadia"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i7"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t7"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="300dp"
-                                android:text="Complex D'artisanat"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Place De France"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i7"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="330dp"
-                                android:text="Av Hassan Ii"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i8"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t8"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="360dp"
-                                android:text="Bank Al Maghrib"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Gare Routiere"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i8"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="390dp"
-                                android:text="Gare Routiere"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i9"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t9"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="420dp"
-                                android:text="Place De France"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Bank Al Maghrib"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i9"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="450dp"
-                                android:text="Stade El Aabdi"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i10"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t10"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="480dp"
-                                android:text="Ofppt"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Av Hassan Ii"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i10"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="510dp"
-                                android:text="Hopital Civil"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i11"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t11"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="540dp"
-                                android:text="Al Boustane"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Complex D'artisanat"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i11"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="570dp"
-                                android:text="Cite Universitaire"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i12"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t12"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="600dp"
-                                android:text="Haouziya 2"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t13"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Halima Assaadia"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i12"/>
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="630dp"
-                                android:text="Haouziya 3"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <ImageView
+                            android:id="@+id/i13"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t13"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="660dp"
-                                android:text="El Ghorba"
-                                android:textColor="#000"
-                                android:textSize="15sp"
-                                android:textStyle="italic"
-                                tools:ignore="HardcodedText" />
+                        <TextView
+                            android:id="@+id/t14"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Bir Anzarane"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i13"/>
 
-                        </RelativeLayout>
+                        <ImageView
+                            android:id="@+id/i14"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t14"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
 
-                    </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:id="@+id/t15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="El Hariti"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i14"/>
+
+                        <ImageView
+                            android:id="@+id/i15"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t15"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/t16"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Mosquee Ibrahim Al Khalil"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i15"/>
+
+                        <ImageView
+                            android:id="@+id/i16"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t16"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/t17"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Tahrir"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i16"/>
+
+                        <ImageView
+                            android:id="@+id/i17"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t17"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/t18"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="El bahara"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i17"/>
+                        <ImageView
+                            android:id="@+id/i18"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t18"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/t19"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Hacienda Iii"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i18"/>
+
+                        <ImageView
+                            android:id="@+id/i19"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t19"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/ff"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/t20"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Hacienda Ii"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i19"/>
+
+                        <ImageView
+                            android:id="@+id/i20"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t20"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/t21"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Hacienda I"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i20"/>
+
+                        <ImageView
+                            android:id="@+id/i21"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/t21"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/fff"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/t22"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Mosquee Sidi Bouzide"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textSize="17sp"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText"
+                            android:layout_below="@id/i21"/>
+
+                    </RelativeLayout>
 
                 </LinearLayout>
 
